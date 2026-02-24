@@ -41,7 +41,6 @@ let atletas = [
  }
 ];
 
-// Execução: Percorre a matriz, cria instâncias da classe e exibe os resultados
 atletas.forEach(dadosAtleta => {
     let atleta = new Atleta(dadosAtleta.nome, dadosAtleta.notas);
     atleta.exibirResultado();
